@@ -1,5 +1,6 @@
 from tkinter import*
 window=Tk()
+window.title("Mile to Kilometer Converter")
 window.minsize(width=100,height=50)
 window.config(padx=100,pady=100)
 user=Entry(width=5)
