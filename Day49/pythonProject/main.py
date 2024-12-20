@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 chrome_option=webdriver.ChromeOptions()
-gmail="monj43553@gmail.com"
-password="Hg@191812"
+gmail="my_own_email"
+password="my_own_password"
 chrome_option.add_experimental_option("detach",True)
 driver=webdriver.Chrome(chrome_option)
 driver.get("https://www.linkedin.com/login")
