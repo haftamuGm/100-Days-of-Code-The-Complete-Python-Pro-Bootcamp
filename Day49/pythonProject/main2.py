@@ -3,8 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-ACCOUNT_EMAIL = "monj43553@gmail.com"
-ACCOUNT_PASSWORD = "Hg@191812"
+ACCOUNT_EMAIL = "my_email"
+ACCOUNT_PASSWORD = "my_password"
 PHONE = "0912213443"
 
 chrome_options = webdriver.ChromeOptions()
