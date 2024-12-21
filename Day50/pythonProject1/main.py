@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 import time
 
-my_phone_number = '0914751592'
+my_phone_number = ''
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -29,7 +29,7 @@ email = driver.find_element(By.ID, value='email')
 email.send_keys(my_phone_number)
 
 password = driver.find_element(By.ID, value='pass')
-password.send_keys('958008')
+password.send_keys('password')
 password.send_keys(Keys.ENTER)
 driver.switch_to.window(main_window)
 time.sleep(80)
