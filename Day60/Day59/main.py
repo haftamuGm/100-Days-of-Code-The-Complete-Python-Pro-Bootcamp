@@ -4,8 +4,8 @@ from smtplib import SMTP_SSL
 
 from pyexpat.errors import messages
 
-password="sdypcybuxcvudqii"
-own_email="bsrathabtamu4@gmail.com"
+password="password"
+own_email="email"
 # USE YOUR OWN npoint LINK! ADD AN IMAGE URL FOR YOUR POST. 👇
 posts = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
 
